@@ -11,7 +11,7 @@ import {transformSync as babelTransform} from '@babel/core';
 // @ts-expect-error: should just be `require.resolve`, but the tests mess that up
 import babelPluginIstanbul from 'babel-plugin-istanbul';
 import {fromSource as sourcemapFromSource} from 'convert-source-map';
-import stableStringify = require('fast-json-stable-stringify');
+import stableStringify from 'safe-stable-stringify';
 import * as fs from 'graceful-fs';
 import {addHook} from 'pirates';
 import slash = require('slash');

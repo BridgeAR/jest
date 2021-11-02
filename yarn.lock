@@ -2743,7 +2743,6 @@ __metadata:
     "@jest/types": ^27.2.5
     "@types/babel__core": ^7.1.0
     "@types/convert-source-map": ^1.5.1
-    "@types/fast-json-stable-stringify": ^2.0.0
     "@types/graceful-fs": ^4.1.2
     "@types/micromatch": ^4.0.1
     "@types/write-file-atomic": ^3.0.0
@@ -2751,7 +2750,6 @@ __metadata:
     chalk: ^4.0.0
     convert-source-map: ^1.4.0
     dedent: ^0.7.0
-    fast-json-stable-stringify: ^2.0.0
     graceful-fs: ^4.2.4
     jest-haste-map: ^27.3.1
     jest-regex-util: ^27.0.6
@@ -2759,6 +2757,7 @@ __metadata:
     jest-util: ^27.3.1
     micromatch: ^4.0.4
     pirates: ^4.0.1
+    safe-stable-stringify: ^2.2.0
     slash: ^3.0.0
     source-map: ^0.6.1
     write-file-atomic: ^3.0.0
@@ -4493,13 +4492,6 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: cbf76946b4739881d5a66a6f7397d7bb74ce04960ed593d28b3db5a51e3ea0be902ac80b8dcb7946bb0c9d83ce3267365fdd4e6ee922175845ebe06fe50d55cd
-  languageName: node
-  linkType: hard
-
-"@types/fast-json-stable-stringify@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@types/fast-json-stable-stringify@npm:2.0.0"
-  checksum: 15f929fabb7ac36d853e72159d103bba3d9395fdee4e06a5dc719a66f52f2b92a8c5293483f450850b867556431b13b49be1db2d5af8093226fb62da7a49e2a2
   languageName: node
   linkType: hard
 
@@ -19165,6 +19157,13 @@ react-native@0.64.0:
   dependencies:
     ret: ~0.1.10
   checksum: c355e3163fda56bef5ef0896de55ab1e26504def2c7f9ee96ee8b90171a7da7a596048d256e61a51e2d041d9f4625d956d3702ebcfb7627c7a4846896d6ce3a4
+  languageName: node
+  linkType: hard
+
+"safe-stable-stringify@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "safe-stable-stringify@npm:2.2.0"
+  checksum: ebee37699116894c6bebc20a9f5f288f78350079b49fe7922c296e3ed2524c194a8150391ae296861367e51cc3fa010f73daeb5fe8ffdfdcfebd3fa4d0dbe117
   languageName: node
   linkType: hard
 
